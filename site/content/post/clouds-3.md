@@ -1,8 +1,9 @@
 ---
-title: "Cloudy sky"
+title: Cloudy sky
 date: 2016-12-17T15:04:10.000Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
-image: /img/gallery-2.jpg
+description: The Coffee Taster’s Flavor Wheel, the official resource used by
+  coffee tasters, has been revised for the first time this year.
+image: img/90f555f0a228c646424f10381f1d1e57.jpg
 ---
 
 ## What the updates mean to you
