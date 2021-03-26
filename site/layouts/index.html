@@ -2,7 +2,62 @@
 
 <div class="container">
     
-    {{ partial "nav" . }}
+    <div class="container">
+        <div class="check-this">
+            <a href="https://www.apple.com/ru/">check-this</a>
+        </div>
+
+
+        <div class="top">
+            <h1>Mariam Najaryan</h1>
+        </div>
+
+        <div class="gallery">
+
+            <div class="gallery-top-image">
+                <img src="./imgs/tauba-auberbach-3.jpg" alt="">
+            </div>
+
+            <div class="gallery-second-images">
+                <div class="gallery-second-image-s">
+                    <img src="./imgs/tauba-auberbach-4.jpg" alt="">
+                </div>
+                <div class="gallery-second-image-m">
+                    <img src="./imgs/tauba-auberbach-5.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <p>
+                <p>{{.Params.intro.text}}</p>
+            </p>
+        </div>
+
+        <div class="contacts">
+
+            <div class="contacts-headline">
+                <h2>
+                    Get in touch
+                </h2>
+            </div>
+
+            <div class="contacts-buttons">
+                <a href="https://www.instagram.com/tau_au/">   
+                    <div class="contacts-button">Instagram</div>
+                </a>
+
+                <a href="https://www.artsy.net/artist/tauba-auerbach">
+                    <div class="contacts-button">Artsy profile</div>
+                </a>
+
+            </div>
+
+
+
+
+        </div>
     
     <div class="intro">
         <h1>{{.Params.title}}</h1>
